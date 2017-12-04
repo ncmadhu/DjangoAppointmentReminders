@@ -1,0 +1,21 @@
+django==1.11.8
+
+# Third-party app dependencies
+arrow
+celery[redis]
+django-bootstrap3
+django-forms-bootstrap
+django-timezone-field
+psycopg2
+twilio
+whitenoise
+
+# Production dependencies
+dj-database-url
+gunicorn
+
+# Test dependencies
+coverage
+mock
+model-mommy
+six
